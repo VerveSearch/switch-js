@@ -1,0 +1,34 @@
+.switch-js-content-1{
+  position: relative;
+}
+.switch-js-content-2{
+  position: relative;
+  display: none;
+  padding: 16px;
+  background-color: rgba(66,66,66,0.1);
+  width: 190px;
+}
+.content1, .content2{
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+ .content1{
+    font-weight: 500;
+ }
+.switch-js{
+  height: 56px;
+  width: 100%;
+  text-align: center;
+  line-height: 3.2em;
+}
+.fa.fa-times-circle-o{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+.active-class, .active-class:hover,  .active-class:visited {
+  background: #bb2b39;
+}
