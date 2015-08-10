@@ -10,6 +10,14 @@
   <script src="/dist/switch-js.min.js"></script>
   <script src="/dist/bootstrap.js"></script>
 </head>
+<style>
+  .content1, .content2 {
+    display: none;
+  }
+   .content1.active-container, .content2.active-container{
+    display: block;
+   }
+</style>
 <body>
 <div class="container"> 
   <div class="switch-js" data-target-switch1-content=".content1" data-target-switch2-content=".content2">

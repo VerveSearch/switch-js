@@ -51,8 +51,7 @@
 	};
 
 	$.fn.Switch = function(options){
-		return this.each(function(){
-			var e;
+		return this.each(function(){ 
 			$(this).data('__SWITCH_JS__', (e = new W.vs.Switch($(this),options|| null).render())); 
 		});
 	};
